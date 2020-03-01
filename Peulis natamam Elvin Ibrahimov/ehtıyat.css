@@ -1,0 +1,158 @@
+body{
+    overflow-x: hidden;
+    }
+    
+    body, html{
+    margin: 0;
+    padding: 0;
+    }
+    
+    header{
+    background-color: #1EC8E7;
+    width: 100vw;
+    height: 100px;
+    z-index: 1;
+    position: relative
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .for-contact{
+        display: inline-block;
+        margin-left: 147px;
+    }
+    
+    header ul li{
+        display: inline-block;
+        list-style-type: none;
+        margin-left: 20px;
+    }
+    
+    header ul li a{
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    }
+    
+    .header-top ul{
+    float: left;
+    margin-top: 25px
+    }
+    
+    .social-ul{
+    margin-left: 487px;
+    }
+    
+    .header-bottom{
+    width: 80%;
+    background-color: white;
+    height: 100px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    }
+    
+    .site-logo>a>img{
+    width: 100%;
+    }
+    
+    .site-logo{
+        width: 15%;
+        margin-left: 23px;
+        display: inline-block;
+    }
+    
+    .nav-menu{
+        display: inline-block;
+        text-align: center;
+        margin-left: 10%;
+    }
+    
+    .nav-menu>ul>li>a{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+    }
+    
+    .nav-menu>ul>li>.active{
+    color: red;
+    }
+    
+    .nav-menu>ul>li:hover>a{
+    color: red;
+    }
+    
+    .action-items>li>a{
+    color: black;
+    }
+    
+    .action-items{
+    margin-left: 10%;
+    }
+    
+    
+    .owl-carousel{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/9.jpg);
+    background-size: cover;
+    z-index: 0;
+    }
+    
+    footer{
+    /* background-image: url(img/10.jpg); */
+    background-color: black;
+    width: 100vw;
+    height: 350px;
+    
+    }
+    
+    .row{
+        display: flex;
+        align-items: flex-start;
+        margin-right: 10%;
+    }
+    
+    .col-3{
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 4%;
+    }
+    
+    .col-3 p, .col-3 a{
+        color: #c5c5c5;
+        font-size: 1.2rem;
+    }
+    
+    .col-3 h5{
+    margin-left: 21%;
+    }
+    
+    .col-3 h5>a{
+    color: white;
+    font-size: 1.4;
+    }
+    
+    .end-logo>a>img{
+    width: 100%;
+    }
+    
+    .end-logo{
+    width: 85%;
+    }
+    
+    .footer-social{
+    display: flex;
+    margin-right: 5%;
+    }
+    
+    .col-3>ul>li{
+    margin-left: 5%;
+    }
+    
+    .col-3>ul>li>a>i{
+    font-size: 1.5rem;
+    }
